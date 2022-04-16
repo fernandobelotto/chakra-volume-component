@@ -41,7 +41,7 @@ export default function VolumeComponent() {
 
     return (
         <>
-        <Button m='10' onClick={handleMuted}>Mute</Button>
+            <Button m='10' onClick={handleMuted}>Mute</Button>
             <Popover >
                 <PopoverTrigger>
                     <IconButton
@@ -52,8 +52,8 @@ export default function VolumeComponent() {
                 <PopoverContent w='40px'>
                     <PopoverBody >
                         <Slider
-                            aria-label='slider-ex-3'
-                            defaultValue={30}
+                            aria-label='volume-slider'
+                            defaultValue={0}
                             orientation='vertical'
                             minH='32'
                             value={sliderValue}

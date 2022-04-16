@@ -9,7 +9,7 @@ export default function Index() {
     <Box w='100vw' h='100vh'>
       <Center h='100%'>
         <DarkModeSwitch />
-      <VolumeComponent />
+        <VolumeComponent />
       </Center>
     </Box>
     </>
