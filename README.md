@@ -2,7 +2,7 @@
 
 > Component to change volume made with chakra-ui
 
-![gif]('showcase.gif')
+![gif](showcase.gif)
 
 ## Install
 
